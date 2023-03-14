@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    background: rgb(153,9,83);
+    background: radial-gradient(circle, rgba(153,9,83,1) 42%, rgba(233,148,180,1) 100%);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif; 
+    color: whitesmoke;
+
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#add{
+   width: 12rem;
+   height: 2.5em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: rgb(253,29,29);
+   background: linear-gradient(90deg, rgba(253,29,29,1) 18%, rgba(252,176,69,1) 100%);
+   
+}
+
+input{
+    width: 50rem;
+    height: 3em;
+    padding-left: 10px;
+}
+
+.pcon{
+    background: rgb(253,29,29);
+    color: white;
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.p{
+    color: wheat;
+    display: inline;
+}
+
+.delte{
+
+    border: none;
+    font-size: larger;
+    color: wheat;
+    background-color: transparent;
+    padding-right: 5px;
+    width: 44px;
+    height: 25px;
+}
+
+.pad{
+    
+    background-color: rgb(42, 38, 38);
+}
+
+.deltepad{
+    color: red;
+}
